@@ -13,21 +13,16 @@
 ActiveRecord::Schema.define(version: 2022_09_06_045329) do
 
   create_table "cars", force: :cascade do |t|
-    t.string "make"
     t.string "model"
-    t.integer "year"
-  end
-
-  create_table "models", force: :cascade do |t|
-    t.string "make"
-    t.integer "year"
+    t.integer "car_id"
   end
 
   create_table "owners", force: :cascade do |t|
-    t.integer "year"
-    t.string "model"
-    t.integer "car_id"
-    t.integer "model_id"
+    t.string "name"
+    t.string "country"
+    t.integer "price"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
   end
 
 end
