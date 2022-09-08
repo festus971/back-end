@@ -30,20 +30,20 @@ puts "🌱 Seeding spices..."
 #  end
 # end
 puts "Creating the Owners..."
-jacob = Owner.create(name: "Jacob", country: "Kenya", price: "1.6M")
-max = Owner.create(name: "Max", country: "Nigeria", price: "0.8M")
-mary = Owner.create(name: "Mary", country: "Burundi", price: "4.2M")
-phil = Owner.create(name: "Phil", country: "Germany", price: "5M")
-brian = Owner.create(name: "Brian", country: "Bangok", price: "2.6M")
-leah = Owner.create(name: "Leah", country: "Australia", price: "4.6M")
-johns = Owner.create(name: "Johns", country: "USA", price: "1.3M")
-job = Owner.create(name: "Job", country: "Spain", price: "4.3M")
-andrew = Owner.create(name: "Andrew", country: "Canada", price: "3.3M")
-peter = Owner.create(name: "Peter", country: "India", price: "2.5M")
-sam = Owner.create(name: "Sam", country: "Mexico", price: "2.8M")
-vic = Owner.create(name: "Vic", country: "Chad", price: "2.0M")
-ronclif = Owner.create(name: "Ronclif", country: "Netherlands", price: "2.1M")
-tony = Owner.create(name: "Tony", country: "Belgium", price: "7.3M")
+jacob = Owner.create(name: "Jacob", country: "Kenya", price: "16000")
+max = Owner.create(name: "Max", country: "Nigeria", price: "80000")
+mary = Owner.create(name: "Mary", country: "Burundi", price: "42000")
+phil = Owner.create(name: "Phil", country: "Germany", price: "51000")
+brian = Owner.create(name: "Brian", country: "Bangok", price: "26000")
+leah = Owner.create(name: "Leah", country: "Australia", price: "46000")
+johns = Owner.create(name: "Johns", country: "USA", price: "13000")
+job = Owner.create(name: "Job", country: "Spain", price: "43000")
+andrew = Owner.create(name: "Andrew", country: "Canada", price: "33000")
+peter = Owner.create(name: "Peter", country: "India", price: "25000")
+sam = Owner.create(name: "Sam", country: "Mexico", price: "28000")
+vic = Owner.create(name: "Vic", country: "Chad", price: "20000")
+ronclif = Owner.create(name: "Ronclif", country: "Netherlands", price: "21000")
+tony = Owner.create(name: "Tony", country: "Belgium", price: "73000")
 
 
 
